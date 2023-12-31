@@ -1,0 +1,109 @@
+@font-face{
+    font-family:fuentechida;
+    src: url(fonts/OleoScript-Regular.ttf);
+ 
+}
+body{
+background-image: url(../imagenes/montaña.jpg);
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat; 
+}
+
+.fieldset{
+transition: 2s;
+margin-bottom: 50px;
+border-color: rgba(213,0,0,1);
+border-style: groove;
+border-width: 5px;
+border-radius: 20px;
+}
+
+
+#formulario{
+
+height: 930px;
+border-radius: 30px;
+width: 30%;
+transition: 2s;
+margin-top: 20px;
+background-color: #292b2c;
+margin-left: 35%;
+
+
+
+}
+
+.logo{
+height: 100px;
+margin-top: 20px;
+transition: 1s;
+margin-left: -35%;
+}    
+
+
+.estacioado{
+height: 20rem;
+}
+
+
+h3,h4{
+color:white;
+text-align: center;
+}
+
+legend{
+border: none;
+}
+
+.Input{
+transition: .8s;
+background-color: rgba(0,0,0,.5);
+color: white;
+border-color:  rgb(0, 140, 255);
+border-color-bottom:white;
+border-bottom-style: groove;
+border-right: none;
+border-left: none;
+border-top:none;
+border-width: 6px;
+height: 40px;
+width: 100%;
+
+}
+
+.Input:hover{
+transition: .8s;
+background-color: rgba(55,71,79,.5);
+box-shadow: inset;
+border-bottom-color: green;
+}
+
+.Input:focus{
+transition: .8s;
+border-bottom-color: orange;
+}
+
+@media screen and(max-width: 750px){
+#formulario{
+    width: 95%;
+    margin-top: 10px;  
+}
+
+.logo{
+    height: 50px;
+}
+
+}
+#imagen{
+    margin-left: 38%;
+    transition: 1s;
+}
+
+
+footer{
+    background-color:#292b2c ;
+}
+
+
